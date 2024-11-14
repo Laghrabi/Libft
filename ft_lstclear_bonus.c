@@ -6,7 +6,7 @@
 /*   By: claghrab <claghrab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 20:20:37 by claghrab          #+#    #+#             */
-/*   Updated: 2024/11/11 20:21:17 by claghrab         ###   ########.fr       */
+/*   Updated: 2024/11/14 16:09:10 by claghrab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*lst = current;
 	}
 }
-// int main()
-// {
-//     t_list *node1 = ft_lstnew(ft_strdup("ziad"));
-//     t_list *node2 = ft_lstnew(ft_strdup("chaymaa"));
-//     t_list *node3 = ft_lstnew(ft_strdup("mimi"));
-
-//     node1->next = node2;
-//     node2->next = node3;
-
-//     ft_lstclear(&node1, &del);
-//     printf("%s", node3->content);
-//     system("leaks a.out");
-// }
